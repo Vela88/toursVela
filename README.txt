@@ -1,0 +1,1 @@
+A blog about Oaxaca. I am also offering tours to the locations that i blog about. 
