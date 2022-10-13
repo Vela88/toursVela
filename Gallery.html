@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Blog Vela Home Page</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <style>
+        .{
+            margin: 0px; padding:0;
+            box-sizing: border-box;
+            transition: all 2s linear;
+        }
+
+        body{
+            background-color: black;
+        }
+
+        .gallery{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 90%;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .gallery a{
+            height: 200px;
+            width: 300px;
+            margin: 20px;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 3px 5px #000;
+        }
+
+        .gallery a img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .gallery a img:hover{
+            transform:scale(1.4);
+        }
+    </style>
+
+
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarExample01"
+            aria-controls="navbarExample01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="index.html">
+                  <img
+                    src="img/Tours_Vela_Logo.png"
+                    height="20"
+                    alt="Tours Vela"
+                    loading="lazy"
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Articles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Walking_Tour.html">Walking Tour</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+
+    <!-- Gallery -->
+      <div class="gallery">
+        <a href="img/Calenda_Central.jpg">
+            <img src="img/Calenda_Central.jpg" alt="">
+        </a>
+        <a href="img/Calenda_Central2.jpg">
+            <img src="img/Calenda_Central2.jpg" alt="">
+        </a>
+        <a href="img/CalendaCentralDeAbastos.jpg">
+            <img src="img/CalendaCentralDeAbastos.jpg" alt="">
+        </a>
+        <a href="img/catedral_restaurant.NIGHT.jpg">
+            <img src="img/catedral_restaurant.NIGHT.jpg" alt="">
+        </a>
+        <a href="img/Northen Sierra Mountains Bridge.jpg">
+          <img src="img/Northen Sierra Mountains Bridge.jpg" alt="">
+        </a>
+        <a href="img/Santo_Domingo_Bars.jpg">
+          <img src="img/Santo_Domingo_Bars.jpg" alt="">
+        </a>
+        <a href="img/Chocolate.jpg">
+          <img src="img/Chocolate.jpg" alt="">
+        </a>
+        <a href="img/Flags.jpg">
+          <img src="img/Flags.jpg" alt="">
+        </a>
+        <a href="img/Heive el Agua.jpg">
+          <img src="img/Heive el Agua.jpg" alt="">
+        </a>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"> </script>
+    
+    <script>
+        lightGallery(document.querySelector('.gallery'))
+    </script>
+
+
+
+      <!-- Footer -->
+      <footer class="bg-light text-center text-lg-left">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Footer Content</h5>
+  
+              <p>
+                Join me on a tour to see these sights in person!
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+  
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">Links</h5>
+  
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+<!-- Copyright -->
+<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2020 Copyright:
+    <a class="text-dark" href="https://mdbootstrap.com/"><img src="Tours_Vela_Logo.png" alt=""></a>
+  </div>
+  <!-- Copyright -->
+</footer>
+</body>
+
+<!-- MDB -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Custom scripts -->
+<script type="text/javascript"></script>
