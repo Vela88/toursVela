@@ -23,6 +23,22 @@
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
     <!-- Custom styles -->
+    <!-- Preload -->
+    <link rel="preload" as="image" href="/images/landing-m.webp">
+    <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-regular.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-700.woff2" crossorigin>
+
+    <link rel="stylesheet" href="css1/critical.css"> <!-- Only above the fold css-->
+    <link rel="stylesheet" href="../css/root.css">
+    <link rel="stylesheet" href="../css/dark.css">
+
+    <!--Defer loading the whole page css-->
+    <link rel="stylesheet" href="/css/local.css" media="print" onload="this.media='all'; this.onload=null;">
+
+    <!--If the user has javascript disbaled, load this stylesheet-->
+    <noscript>
+        <link rel="stylesheet" href="/css/local.css">
+    </noscript>
     <style></style>
   </head>
   <body>
